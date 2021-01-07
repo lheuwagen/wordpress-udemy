@@ -1,0 +1,37 @@
+/*
+Theme Name: Udemy Course
+Author: le ME
+Description: Udemy Course Development Training
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+*/
+
+header, main, nav, article, aside, footer {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Globals */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+/* Navigation */
+
+/* Content */
+
+/* Sidebar */
+
+/* Footer */
+
+body {
+    background: darkgreen;
+    color: white;
+}
