@@ -20,16 +20,91 @@ header, main, nav, article, aside, footer {
     box-sizing: border-box;
 }
 
+body {
+    background:darkgreen;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+}
 
 /* Header */
+@media screen and (min-width: 800px) {
+    .site-header {
+        float: left;
+        width: 30%;
+    }
+}
 
+/* Suche */
+.site-search {
+    background: black;
+    padding: 1em;
+}
+
+.site-search input[type=search] {
+    color: black;
+}
+
+.site-search input[type=submit] {
+    color: black;
+}
 /* Navigation */
 
+/* Main */
+@media screen and (min-width: 600px) {
+    .site-main {
+        float: right;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .site-main {
+        width: 70%;
+    }
+}
+
 /* Content */
+.post-meta{
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 600px) {
+    .site-content {
+        float: left;
+        width: 70%;
+    }
+}
 
 /* Sidebar */
+@media screen and (min-width: 600px) {
+    .site-sidebar {
+        float: right;
+        width: 30%;
+    }
+}
 
 /* Footer */
+@media screen and (min-width: 600px) {
+    .site-footer {
+        float: left;
+        width: 100%;
+    }
+    .site-secondary {
+        float: left;
+    }
+    .site-social {
+        float: right;
+    }
+}
 
 body {
     background: darkgreen;
